@@ -6,11 +6,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 500px;
-  background-color: red;
   height: 250px;
   background-position: bottom;
 }
-
+section {
+  padding: 30px;
+}
 .colorPalette {
 
 }
@@ -101,9 +102,6 @@ body {
 .bold {
   font-weight: 700;
 }
-.uiElements {
-
-}
 .button {
   display: inline-block;
   padding: 15px;
@@ -143,10 +141,12 @@ body {
 .infoActive {
   background-color: #4386BA;
 }
-.imagery {
-
-}
 .sectionHead {
   border-bottom: 8px solid #DDDDDD;
   font-size: 24px !important;
+}
+#pageTopic {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
 }
